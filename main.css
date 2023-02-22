@@ -1,0 +1,196 @@
+
+.nav2{
+    margin-top: 26px;
+    background-color: rgb(35,47,62);
+    color: white;
+    display: flex;
+}
+
+#allbtn{
+    margin-left: 20px;
+}
+#allbtn:hover{
+    border: 1px solid white;
+}
+.amt p{
+    padding-left: 0px;
+    padding-top:7px;
+}
+.amt{
+    cursor: pointer;
+    margin-left: 30px;
+}
+.amt:hover{
+    border: 1px solid white;
+}
+.amt button{
+    background-color: rgb(35,47,62);
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+.cs{
+    position: absolute;
+    top: 55%;
+    left: 1%;
+    z-index: 1;
+    height:30rem;
+    width: 20rem;
+    background-color: white;
+}
+.text{
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+.cimages{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.sm{
+    margin-left: 1.4rem;
+    margin-top: 1rem;
+}
+.sm a{
+    text-decoration: none;
+}
+.ae{
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    z-index: 1;
+    height:30rem;
+    width:20rem;
+    background-color: white;
+    margin-left: 1rem;
+}
+.cardimg1{
+    display: flex;
+}
+
+.cimage1{
+    height: 7rem;
+    width: 8rem;
+    margin-left: 1.5rem;
+}
+.cimage1 p{
+    font-size: small;
+}
+.cimage2{
+    height: 7rem;
+    width: 8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.cimage2 p{
+    font-size: small;
+}
+.cardimg2{
+    margin-top: 4rem;
+    display: flex;
+}
+.three{
+    position: absolute;
+    top: 0%;
+    left: 200%;
+    z-index: 1;
+    height:30rem;
+    width: 20rem;
+    background-color: white;
+    margin-left: 2rem;
+}
+.four{
+    position: absolute;
+    top: 55%;
+    left: 73%;
+    z-index: 1;
+    height:12rem;
+    width:20rem;
+    /* background-color: white; */
+    margin-left: 2rem;
+}
+.si{
+    background-color: white;
+    height: 10rem;
+}
+.si h4{
+    padding-top:1rem;
+    margin-left: 1.4rem;
+}
+.si button{
+    text-decoration: none;
+    border: none;
+    margin-left:1.4rem;
+    margin-top: 1rem;
+    width: 16rem;
+    background-color: rgb(255, 225, 0);
+    border-radius: 10px;
+    height: 2rem;
+}
+.si button:hover{
+    background-color:rgb(212, 194, 0); ;
+}
+.laptop{
+    margin-top: 1rem;
+}
+.todaydeal{
+    /* border: 3px solid black; */
+   
+    margin-top: 15rem;
+    margin-left: 1rem;
+}
+.todaydeal h4{
+    margin-left: 1rem;
+}
+.deals{ 
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    display: flex;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem; 
+    margin-right: 1rem;
+}
+.deals span{
+    
+    background-color: rgb(253, 23, 99);
+    color: white;
+    padding: 0.3rem;
+}
+.deals p{
+    margin-top: 1rem;
+    font-size: small;
+    color: rgb(249, 11, 90);
+}
+.deals div{
+    margin-left: 4rem; 
+    width: 20rem;  
+}
+.deals h6{
+    font-size: 1rem;
+    font-weight:3px;
+}
+.nbtn{
+    position: absolute;
+    height: 5rem;
+    margin-top: 80px;
+    width:2rem;
+    text-decoration: none;
+    border: none;
+    opacity: 0.5;
+    background-color:lightgray;
+    box-shadow: 2px 2px 2px 2px;
+}
+.pbtn{
+        position: absolute;
+        height: 5rem;
+        right: 0;
+        margin-right: 30px;
+        margin-top: 80px;
+        width:2rem;
+        text-decoration: none;
+        border: none;
+        opacity: 0.5;
+        background-color:lightgray;
+        box-shadow: 2px 2px 2px 2px;
+    
+}

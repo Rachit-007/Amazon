@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="footer.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Amazon</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://kit.fontawesome.com/b118dc68bc.css" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/b118dc68bc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="navi">
+      <nav class="navbar fixed-top bg-dark d-flex" style="color: white; padding: 0px;margin: 0px;">
+        <nav class="navbar navbar-expand-lg bg-dark" style="padding: 0px;margin: 0px;">
+          <div class="container-fluid">
+            <div class="logo">
+              <a class="navbar-brand" href="#">
+                <img src="images/amazon.png3ft3d1416935166817" width="130px" style="padding-top: 10px;">
+              </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="address">
+              <p style="padding-left:1rem;">Hello</p>
+              <div class="add">
+                <i class="fa-solid fa-location-dot"></i>
+                <p style="display: inline;"><strong>Select Your Address</strong></p>
+              </div>
+            </div>
+            <div class="search">
+              <nav class="navbar bg-dark">
+                <form class="container-fluid">
+                  <div class="input-group">
+                    <button class="input-group-text" id="basic-addon1" class="btn btn-secondary dropdown-toggle"
+                      type="button" data-bs-toggle="dropdown" aria-expanded="false">All <i
+                        class="fa-solid fa-caret-down" style="color: black; padding-left: 10px;"></i></button>
+                    <div class="dropdn">
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">All Categories</a></li>
+                        <li><a class="dropdown-item" href="#">Alexa skills</a></li>
+                        <li><a class="dropdown-item" href="#">Amazon Devices</a></li>
+                      </ul>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Search Amazon.in" aria-label="Username"
+                      aria-describedby="basic-addon1" size="40">
+                    <button class="searchbtn">
+                      <i class="fa-solid fa-magnifying-glass" style="color: black;"></i>
+                    </button>
+                  </div>
+                </form>
+              </nav>
+            </div>
+            <div class="country">
+              <div class="dropdown">
+                <button class="btn btn-dark"><img src="images/download.png" height="15px" width="20px">
+                  <p style="display: inline; font-size: 15px; margin-left: 5px;"><strong>EN</strong></p><i
+                    class="fa-solid fa-caret-down" style="margin-left: 5px;"></i>
+                </button>
+                <div class="dropdown-content">
+                  <input type="radio" style="margin-left: 15px; margin-top:10px;" name="lan">
+                  <p>English</p><br />
+                  <input type="radio" style="margin-left: 15px; margin-top:10px;" name="lan">
+                  <p>Hindi</p><br />
+                  <input type="radio" style="margin-left: 15px; margin-top:10px;" name="lan">
+                  <p>Tamil</p><br />
+                  <input type="radio" style="margin-left: 15px; margin-top:10px;" name="lan">
+                  <p>Telugu</p><br />
+                  <input type="radio" style="margin-left: 15px; margin-top:10px;" name="lan">
+                  <p>Kannada</p><br />
+                  <input type="radio" style="margin-left: 15px; margin-top:10px;" name="lan">
+                  <p>Bangoli</p><br />
+                  <input type="radio" style="margin-left: 15px; margin-top:10px;" name="lan">
+                  <p>Marathi</p><br />
+                </div>
+              </div>
+            </div>
+            <div class="signin">
+              <div class="dropdown1">
+                <div class="acctext">
+                  <p style="margin-bottom: 0px;">Hello,Sign in</p>
+                  <p><strong>Account & Lists <i class="fa-solid fa-caret-down"></i></strong></p>
+                </div>
+                <div class="dropdowncontent1">
+                  <button>sign in</button>
+                  <p style="display:inline;">new customer?</p><a href="#">Start here</a>
+                  <div class="content">
+                    <div class="yourlist">
+                      <br />
+                      <h6 style="padding-left: 30px;">Your Lists</h6>
+                      <p style="padding-left: 30px;">Create a wishlist</p>
+                      <p style="padding-left: 30px;">Wish from any website</p>
+                      <p style="padding-left: 30px;">Baby wishlist</p>
+                      <p style="padding-left: 30px;">Discover your style</p>
+                    </div>
+                    <div class="yourlist">
+                      <br />
+                      <h6>Your Account</h6>
+                      <p style="padding-left: 10px;">Your Account</p>
+                      <p style="padding-left: 10px;">Your Orders</p>
+                      <p style="padding-left: 10px;">Your Wihslist</p>
+                      <p style="padding-left: 10px;">Your Primevideo</p>
+                      <p style="padding-left: 10px;">Your Seller Account</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="return">
+              <p style="margin-bottom: 0px;">Returns</p>
+              <p><strong>& Orders</strong></p>
+            </div>
+            <div>
+              <button class="btn btn-dark">
+                <i class="fa-solid fa-cart-shopping fa-2x"></i>
+                <p style="display: inline;"><strong>Cart</strong></p>
+              </button>
+            </div>
+          </div>
+        </nav>
+      </nav>
+    </div>
+    <div class="nav2" style="font-size: 15px;">
+      <div class="all">
+        <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" id="allbtn"
+          aria-controls="staticBackdrop" style="color: white;">
+          <i class="fa-solid fa-bars"></i>
+          <strong>All</strong>
+        </button>
+        <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1"
+                            id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                            <div class="offcanvas-header bg-dark">
+                                <h5 class="offcanvas-title text-white" id="staticBackdropLabel"><i
+                                        class="bi bi-person-circle" style="font-size: 40px;"></i>&emsp;<a
+                                        href="#">Hello, Sign in</a></h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div class="items">
+                                    <h5 class="text-black">Trending</h5>
+                                    <div>
+                                        <div class="li-items"><a href="#">Best Sellers</a></div>
+                                        <div class="li-items"><a href="#">New Releases</a></div>
+                                        <div class="li-items"><a href="#">Movers and Shakers</a></div>
+                                    </div>
+                                    <hr>
+                                    <h5 class="text-black">Trending</h5>
+                                    <div>
+                                        <div class="li-items"><a href="#">Best Sellers</a></div>
+                                        <div class="li-items"><a href="#">New Releases</a></div>
+                                        <div class="li-items"><a href="#">Movers and Shakers</a></div>
+                                    </div>
+                                    <hr>
+                                    <h5 class="text-black">Trending</h5>
+                                    <div>
+                                        <div class="li-items"><a href="#">Best Sellers</a></div>
+                                        <div class="li-items"><a href="#">New Releases</a></div>
+                                        <div class="li-items"><a href="#">Movers and Shakers</a></div>
+                                    </div>
+                                    <hr>
+                                    <h5 class="text-black">Trending</h5>
+                                    <div>
+                                        <div class="li-items"><a href="#">Best Sellers</a></div>
+                                        <div class="li-items"><a href="#">New Releases</a></div>
+                                        <div class="li-items"><a href="#">Movers and Shakers</a></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+      </div>
+      <div class="amt" style="margin-left: 10px;">
+        <button>
+          <p>Best Sellers</p>
+        </button>
+      </div>
+      <div class="amt">
+        <button>
+          <p>Mobiles</p>
+        </button>
+      </div>
+      <div class="amt">
+        <button>
+          <p>Customer Service</p>
+        </button>
+      </div>
+      <div class="amt">
+        <button>
+          <p>Today's Deal</p>
+        </button>
+      </div>
+      <div class="amt">
+        <button> <div class="container mainfoot"></div>
+          <p>Electronics</p>
+        </button>
+      </div>
+      <div class="amt">
+        <div class="dropdown">
+          <button class="btn btn-dark">Prime
+          </button>
+          <div class="dropdown-content">
+          </div>
+        </div>
+      </div>
+      <div class="amt">
+        <button>
+          <p>Amazon Pay</p>
+        </button>
+      </div>
+      <div class="amt">
+        <button>
+          <p>Fashion</p>
+        </button>
+      </div>
+      <div class="amt" style="margin-left: 90px;padding-top: 5px;">
+        <button>
+          <img alt="Amazon App"
+            src="https://m.media-amazon.com/images/G/31/IN-hq/2021/img/Mobile_Traffic_/XCM_Manual_1321458_1651511_IN_3781247_400x39_en_IN._CB655944656_.jpg"
+            height="30px">
+        </button>
+      </div>
+    </div>
+
+  </header>
+  <main  style=" background: linear-gradient(to bottom,transparent,whitesmoke);">
+    <div class="mainpage">
+      <div class="carous" style="margin-top: 0px;">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+              <img src="https://m.media-amazon.com/images/I/61aURrton0L._SX3000_.jpg" class="d-block w-100" alt="..."
+                height="100%">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="	https://m.media-amazon.com/images/I/8160RuRhSUL._SX3000_.jpg" class="d-block w-100" alt="..."
+                height="100%">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="https://m.media-amazon.com/images/I/71guEvd5dCL._SX3000_.jpg
+              " class="d-block w-100" alt="..." height="100%">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="https://m.media-amazon.com/images/I/614bisUUxlL._SX3000_.jpg
+              " class="d-block w-100" alt="..." height="100%">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="https://m.media-amazon.com/images/I/81cP1IAxf-L._SX3000_.jpg
+              " class="d-block w-100" alt="..." height="100%">
+            </div>
+
+
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span> -->
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span> -->
+          </button>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="cs">
+          <div class="text">
+            <h4>Up to 70% off | Clearance store</h4>
+          </div>
+          <div class="cimages">
+            <img alt="Up to 70% off | Electronics clearance store"
+              src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Electronics/Clearance/Clearance_store_Desktop_CC_1x._SY304_CB628315133_.jpg"
+              class="landscape-image"
+              data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Electronics/Clearance/Clearance_store_Desktop_CC_2x._SY608_CB628315133_.jpg"
+              width="100%" height="310px">
+          </div>
+          <div class="sm">
+            <a href="javascript:void(0)">See More</a>
+          </div>
+          <div class="ae">
+            <div class="text">
+              <h4>Automotive essentials | Up to 60% off</h4>
+            </div>
+            <div class="cardimg1">
+              <div class="cimage1">
+                <img alt="Cleaning accessories"
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Glasscare1X._SY116_CB410830553_.jpg"
+                  class="landscape-image"
+                  data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Glasscare2x._SY232_CB410830552_.jpg"
+                  width="100%" height="100%">
+                <p>Cleaning accessories</p>
+              </div>
+              <div class="cimage2">
+                <img alt="Tyre &amp; rim care"
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Rim_tyrecare1x._SY116_CB410830552_.jpg"
+                  class="landscape-image"
+                  data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Rim_tyrecare2x._SY232_CB410830552_.jpg"
+                  width="100%" height="100%">
+                <p>Tyre & rim care</p>
+              </div>
+            </div>
+            <div class="cardimg2">
+              <div class="cimage1">
+                <img alt="Helmets"
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vega_helmet_186x116._SY116_CB405090404_.jpg"
+                  class="landscape-image"
+                  data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vega_helmet_372x232._SY232_CB405083904_.jpg"
+                  width="100%" height="100%">
+                <p>Helmets</p>
+              </div>
+              <div class="cimage2">
+                <img alt="Vacuum cleaner"
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vaccum1x._SY116_CB410830552_.jpg"
+                  class="landscape-image"
+                  data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vaccum2x._SY232_CB410830555_.jpg"
+                  width="100%" height="100%">
+                <p>Vaccum Cleaner</p>
+              </div>
+            </div>
+            <div class="sm" style="margin-top: 2.5rem;">
+              <a href="javascript:void(0)">See More</a>
+            </div>
+          </div>
+          <div class="three">
+            <div class="text">
+              <h4>Starting $87 | Amazon Brands & More</h4>
+            </div>
+            <div class="cardimg1">
+              <div class="cimage1">
+                <img alt="Starting ₹149 | Choppers &amp; more"
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/home_private_label/moritika/baugwsept/xcm_banners_tile2-kitchen_186x116_in-en._SY116_CB612501062_.jpg"
+                  class="landscape-image"
+                  data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/home_private_label/moritika/baugwsept/xcm_banners_tile2-kitchen_372x232_in-en._SY232_CB612501063_.jpg"
+                  height="100%" width="100%">
+                <p>Starting $149 | choppers & more</p>
+              </div>
+              <div class="cimage2">
+                <img alt="Starting ₹87 | String lights  &amp; more"
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/home_private_label/moritika/baugwsept/xcm_banners_tile3-home_186x116_in-en._SY116_CB612501076_.jpg"
+                  class="landscape-image"
+                  data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/home_private_label/moritika/baugwsept/xcm_banners_tile3-home_372x232_in-en._SY232_CB612501076_.jpg"
+                  height="100%" width="100%">
+                <p>Starting $87 | String lights & more</p>
+              </div>
+            </div>
+            <div class="cardimg2">
+              <div class="cimage1">
+                <img alt="Starting ₹189 | Wall stickers &amp; more"
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/home_private_label/moritika/baugwsept/xcm_banners_tile4-home_186x116_in-en._SY116_CB612501080_.jpg"
+                  class="landscape-image"
+                  data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/home_private_label/moritika/baugwsept/xcm_banners_tile4-home_372x232_in-en._SY232_CB612501081_.jpg"
+                  height="100%" width="100%">
+                <p>Starting $90 | Art and craft </p>
+              </div>
+              <div class="cimage2">
+                <img alt="Starting ₹239 | Kitchen storage &amp; containers"
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/home_private_label/moritika/baugwsept/xcm_banners_tile1-kitchen_186x116_in-en._SY116_CB612501057_.jpg"
+                  class="landscape-image"
+                  data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/home_private_label/moritika/baugwsept/xcm_banners_tile1-kitchen_372x232_in-en._SY232_CB612501086_.jpg"
+                  height="100%" width="100%">
+                <p>Starting $100 | Food & lentin</p>
+              </div>
+            </div>
+            <div class="sm" style="margin-top: 2.5rem;">
+              <a href="javascript:void(0)">See More</a>
+            </div>
+          </div>
+        </div>
+        <div class="four">
+          <div class="si">
+            <h4>Sign in for your best experience</h4>
+            <button>Sign in securely</button>
+          </div>
+          <div class="laptop">
+            <img src="https://m.media-amazon.com/images/G/31/img19/AMS/Houseads/Laptops-Sept2019._CB436595915_.jpg"
+              width="100%" height="auto" alt="Laptops">
+          </div>
+        </div>
+      </div>
+      <div class="todaydeal">
+        <div class="txt">
+          <h4 style="display: inline;">Today's Deals</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <p style="display: inline;">See all the deals</p>
+        </div>
+        <div class="deals" id="deals">
+          <button id="prebtn" class="nbtn"><i class="fa-solid fa-chevron-left"></i></button>
+          <button id="nextbtn" class="pbtn"><i class="fa-solid fa-chevron-right"></i></button>
+          <div style="margin-left: 4rem;">
+            <img src="https://m.media-amazon.com/images/I/41kg-+XWoxL._AC_SY200_.jpg"><br />
+            <p><span>Up to 26% Off</span> of the day</p>
+            <h6>Samsung Galaxy M04</h6>
+          </div>
+          <div>
+            <img src="	https://m.media-amazon.com/images/I/41skB7kHQbL._AC_SY200_.jpg "><br />
+            <p><span>Up to 39% Off</span> of the day</p>
+            <h6>High Performance Computer</h6>
+          </div>
+          <div>
+            <img src="https://m.media-amazon.com/images/I/41Ml+bxR8UL._AC_SY200_.jpg"><br />
+            <p><span>Up to 32% Off</span> of the day</p>
+            <h6>Best offers on vivo</h6>
+          </div>
+          <div>
+            <img src="	https://m.media-amazon.com/images/I/71JdO22IWBL._CB613517346_._SY200__AC_SY200_.png"><br />
+            <p><span>Up to 72% Off</span> of the day</p>
+            <h6>Home essentials</h6>
+          </div>
+          <div>
+            <img src="	https://m.media-amazon.com/images/I/51kdwtY1KvL._AC_SY200_.jpg"><br />
+            <p><span>Up to 69% Off</span> of the day</p>
+            <h6>Wallpaper and wall art</h6>
+          </div>
+          <div>
+            <img src="https://m.media-amazon.com/images/I/41J2lcX2TkS._AC_SY200_.jpg"><br />
+            <p><span>Up to 19% Off</span> of the day</p>
+            <h6>Best of smart bulbs</h6>
+          </div>
+          <div>
+            <img src="	https://m.media-amazon.com/images/I/51K8wC5PksL._AC_SY200_.jpg"><br />
+            <p><span>Up to 50% Off</span> of the day</p>
+            <h6>Dry Fruits</h6>
+          </div>
+        </div>
+      </div>
+      <div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="back">
+      <a href="javascript:void(0)"><p>Back to top</p></a>
+    </div>
+      <div class="row mainfoot">
+        <div class="col-2 firstf">
+          <h5>Get to know</h5>
+          <p>About us</p>
+          <p>Careers</p>
+          <p>Press Releases</p>
+          <p>Amazon Science</p>
+        </div>  
+        <div class="col-2 secondf">
+          <h5>Connect With Us</h5>
+          <p>Facebook</p>
+          <p>Twitter</p>
+          <p>Instagram</p>
+        </div>
+        <div class="col-3 thirdf">
+          <h5>Make Money With Us</h5>
+          <p>Sell on Amazon</p>
+          <p>Sell under Amazon Accelerator</p>
+          <p>Protect And Build Your Brand</p>
+          <p>Amazon Global Selling</p>
+          <p>Become an Affiliate</p>
+        </div>   
+        <div class="col-3 fourf">
+          <h5>Let Us Help You</h5>
+          <p>COVID-19 and Amazon</p>
+          <p>Your Account</p>
+          <p>Return Center</p>
+          <p>100% Purchase Protection</p>
+          <p>Amazon App Download</p>
+          <p>Amazon Assistant Download</p>
+          <p>Help</p>
+        </div>
+      </div>
+      <div class="row mainfoot1">
+        <hr/>
+        <div class="col-3 amazonlogo"><img src="images/amazon.png3ft3d1416935166817" alt="" width="130px"></div><br/>
+        <div class="con">
+          <p>Australia</p>
+          <p>Brazil</p>
+          <p>Canada</p>
+          <p>China</p>
+          <p>France</p>
+          <p>Germany</p>
+          <p>Italy</p>
+          <p>Japan</p>
+          <p>Mexico</p>
+          <p>Poland</p>
+          <p>Spain</p>
+          <p>France</p>
+          <p>Germany</p>
+          <p>Italy</p>
+          <p>Japan</p>
+          <p>Mexico</p>
+        </div>
+      </div>
+      <div class="">
+
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script>
+    let nextbtn=document.getElementById("nextbtn");
+    let prebtn=document.getElementById("prebtn");
+    let container=document.getElementById("deals");
+    nextbtn.addEventListener("click", function scrollLeft(){
+      container.scrollLeft += 500;
+    });
+    prebtn.addEventListener("click", function scrollRight() {
+      container.scrollLeft -= 500;
+    });
+  </script>
+</body>
+
+</html>
